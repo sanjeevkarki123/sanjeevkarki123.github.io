@@ -13,27 +13,27 @@
 
         }
         #fullName,#bio,#chk,#my_pro{
-        color:#191970;
+        color:black;
         }
-        #username{
-        color:#191970;
+        #username {
+            color: black;
         }
 
         #githublink,#repolink{
-        color:green;
+        color:blue;
         }
         #githublink:hover{
-        color:black;
+        color:red;
         }
         #repolink:hover{
-        color:black;
+        color:red;
         }
 
         table, th, td{
-            width: 300px;
-            height:45px;
-            color:green;
-            border: 1px solid #191970;
+            width: 450px;
+            height:60px;
+            color:#2F4F4F;
+            border: 1px solid black;
         }
           a{
        color:red;
@@ -44,7 +44,7 @@
       }
 
       td:hover{
-      background-color:#33BBFF;
+      background-color:	#7FFFD4;
       }
 
     </style>
@@ -72,12 +72,11 @@
        <a id="repolink">repo_link</a><br>
     </h3>
 
-    <h3 id="loc" style="color:#191970;"><i class="fa fa-map-marker" style="font-size:30px;color:red"></i>Nepal</h3>
  <div id="tab">
    <table align="center">
     <h2 style="color:#191970;"><u>My Projects:</u></h2>
   <thead>
-  <tr style="background-color:#33FF74">
+  <tr style="background-color:	#008080">
       <th><h3>Projects</h3></th>
       <th id="link1"><h3>Link</h3></th>
   </tr>
@@ -85,24 +84,24 @@
    <tbody>
    <tr>
     <td>python </td>
-    <td><a href="https://github.com/shah014/python">link</a></td>
+    <td><a href="https://github.com/sanjeevkarki123/pyhton">link</a></td>
   </tr>
 
  <tr>
     <td>myrepositery</td>
-    <td><a href="https://github.com/shah014/repositery">link</a></td>
+    <td><a href="https://github.com/sanjeevkarki123/myrepository">link</a></td>
   </tr>
       <tr>
     <td>academy</td>
-    <td><a href="https://github.com/shah014/academy">link</a></td>
+    <td><a href="https://github.com/sanjeevkarki123/academy">link</a></td>
   </tr>
       <tr>
     <td>pre</td>
-    <td><a href="https://github.com/shah014/pre">link</a></td>
+    <td><a href="https://github.com/sanjeevkarki123/pre">link</a></td>
   </tr>
       <tr>
     <td>sanjeevkarki123.github.io</td>
-    <td><a href="https://github.com/shah014/sanjeevkarki123.github.io">link</a></td>
+    <td><a href="https://github.com/sanjeevkarki123/sanjeevkarki123.github.io">link</a></td>
   </tr>
    </tbody>
 </table>
@@ -120,7 +119,6 @@
     document.getElementById('bio').textContent = data['bio']
     document.getElementById('githublink').href = data['html_url']
     document.getElementById('repolink').href = data['html_url']
-    document.getElementById('loc').href = data['location']
     document.getElementById('mainContainer').hidden = false
     document.getElementById('loading').hidden = true
 
